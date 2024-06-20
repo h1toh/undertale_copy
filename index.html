@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undertale Web 1.0</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/a/a5/Undertale.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="background">
+
+        
+
+        <div class="sky">
+            <div class="clouds"></div>
+
+            <p id="positionX">X: 0</p>
+            <p id="positionY">Y: 0</p>
+            <p onclick="getNickname()" class="change">Nickname</p>
+            <p>Alpha v1.0</p>
+            
+        </div>
+
+        
+
+        <div class="floor">
+
+            <div class="street"></div>
+
+            <div class="lightPole"></div>
+            <div class="lightPole2"></div>
+            <div class="lightCircle"></div>
+            <div class="lightCircle2"></div>
+
+            
+            <div class="house">
+
+                <div class="window">
+
+                    <div class="window2">
+
+                        <div class="window3"></div>
+
+                    </div>
+                    
+                </div>
+                <div style="margin-left: 340px;" class="window">
+                    <div class="window2">
+                        <div class="window3"></div>
+                    </div>
+                </div>
+
+                <div class="door"></div>
+            </div>
+            <div class="roof"></div>
+            
+            
+            
+            <div id="player" class="player">
+
+                <img id="direita" class="playerRight" src="imgs/player.png" alt="">
+
+                <img id="esquerda" class="playerLeft" src="imgs/player2.png" alt="">
+                
+                <img id="cima" class="playerDown" src="imgs/player3.png" alt="">
+
+                <img id="baixo" class="playerDown" src="imgs/player1.png" alt="">
+
+                
+
+
+                <h1 id="nickname">You</h1>
+            </div>
+            
+            <div class="yellowLight"></div>
+            <div class="yellowLight2"></div>
+
+        </div>
+    </section>
+
+    <audio src="audios/snowdintown.mp3" autoplay loop></audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
